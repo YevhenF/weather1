@@ -33,17 +33,3 @@ inputs_weathers= Weathers()
 inputs_weathers.entering_city(city)
 inputs_weathers.requests_info(data)
 inputs_weathers.print_weather()
-
-
-
-# import geonamescache
-#
-# gc = geonamescache.GeonamesCache()
-# cities = gc.get_cities()
-#
-# city_name = "Kyiv"
-#
-# is_valid = any(
-#     city["name"].lower() == city_name.lower()
-#     for city in cities.values()
-#)
